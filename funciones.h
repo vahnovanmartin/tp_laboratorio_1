@@ -1,3 +1,6 @@
+
+
+
 #define FUNCIONES_H_INCLUDED
 
 
@@ -8,7 +11,8 @@
  * \return float Devuelve la suma de los dos numeros.
  *
  */
-float suma(float  x , float y){
+float suma(float  x , float y)
+{
    return x+y;
 }
 
@@ -22,7 +26,8 @@ float suma(float  x , float y){
  */
 
 
-float resta (float x , float y){
+float resta (float x , float y)
+{
     return x-y;
 }
 
@@ -36,7 +41,8 @@ float resta (float x , float y){
  */
 
 
-float multiplicacion (float x , float y){
+float multiplicacion (float x , float y)
+{
     return x*y;
 }
 
@@ -50,7 +56,8 @@ float multiplicacion (float x , float y){
  */
 
 
-float division (float x , float y){
+float division (float x , float y)
+{
     return (float)x/y;
 }
 
@@ -64,12 +71,15 @@ float division (float x , float y){
  */
 
 
-int factorial (float x){
+int factorial (float x)
+{
     int acum=1;
 
-        for (int i=x;i>0;i--){
-            acum=acum*i;
-        }
+    for (int i=x;i>0;i--)
+    {
+        acum=acum*i;
+    }
+
     return acum ;
 }
 
