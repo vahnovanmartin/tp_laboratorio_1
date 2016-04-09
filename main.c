@@ -19,6 +19,12 @@ int main()
         printf("7- Calcular el factorial (A!)\n");
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
+        if(flagA==0)
+        A=0;
+        if(flagB==0)
+        B=0;
+        printf("El valor de A es :%f \n",A);
+        printf("El valor de B es :%f\n",B);
 
         scanf("%d",&opcion);
         system("cls");
