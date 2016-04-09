@@ -1,6 +1,4 @@
 
-
-
 #define FUNCIONES_H_INCLUDED
 
 
